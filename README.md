@@ -20,6 +20,7 @@ Please see our [documentation](https://opendistro.github.io/for-elasticsearch-do
 1. Launch Intellij IDEA, choose **Import Project**, and select the `settings.gradle` file in the root of this package. 
 1. To build from the command line, set `JAVA_HOME` to point to a JDK >= 14 before running `./gradlew`.
 
+
 ### Setup email notification using localhost email relay/server
 
 1. Run local email server on the machine where ES is running. e.g. for Mac, run command `sudo postfix start`
